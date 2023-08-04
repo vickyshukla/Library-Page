@@ -1,0 +1,77 @@
+/* Styles */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Roboto+Mono:wght@100;200;300;400;500;600&display=swap');
+@import url("https://fonts.cdnfonts.com/css/lucida-console");
+
+:root {
+  --priamry-1: #0d9b9c;
+  --primary-2: #059b9a;
+  --primary-3: #0d9b9c;
+  --primary-4: rgba(13, 155, 156, 0.15);
+  --primary-5: #001a21;
+  --primary-6: #0a4958;
+  --large-desktop-l: 1400px;
+  --desktop-u: 1399px;
+  --desktop-l: 1025px;
+  --small-desktop-u: 1024px;
+  --small-desktop-l: 769px;
+  --tablet-u: 768px;
+  --tablet-l: 481px;
+  --mobile-u: 480px;
+  --mobile-l: 320px;
+  --font-mont: 'Montserrat', sans-serif;
+  --font-lucida: 'Roboto Mono', monospace;
+  --fsm96: 96px;
+  --fsm32: 32px;
+  --fsm36: 36px;
+  --fsm24: 24px; 
+  --fsm20: 20px;
+  --fsm18: 18px;
+  --fsm16: 16px;
+  --fsm14: 14px;
+  --fsl16: 16px;
+  --fsl14: 14px;
+}
+
+    /* 32px, 20px, 14px, 24px, 96px, 36px, 18px, 16px -- MOntserrat*/
+    /* 16px, 14px -- Lucida  */
+
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #000;
+  max-width: 100%;
+  margin: auto;
+}
+
+#root {
+  /* max-width: 1500px; */
+  margin: auto;
+  position: relative;
+}
+
+.font-mont {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-lucida {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.debug {
+  border: 1px solid red;
+}
+
+.gap-2 {
+  column-gap: 2rem;
+}
+
+.w-45 {
+  width: 45%;
+}
+
+img.tag-Image {
+  height: 1rem;
+  vertical-align: sub;
+}

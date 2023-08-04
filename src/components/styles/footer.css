@@ -1,0 +1,128 @@
+section.contact {
+    background-color: #000B0E;
+    background-image: url('https://6637851.fs1.hubspotusercontent-na1.net/hubfs/6637851/Api%20Direct%20Version%202%20Resources/ReactApiImg/details-hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+section.contact .container {
+    row-gap: 2rem;
+}
+
+section.contact .sub-form-hold {
+    width: 584px;
+}
+section.contact .address-hold {
+    padding-left: 9rem;
+}
+
+form.subscription-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    width: 580px;
+}
+form.subscription-form .d-flex label.fsxl20 {
+    width: 10rem;
+}
+form.subscription-form .d-flex label.check-label {
+    font-size: 16px;
+    line-height: 150%;
+}
+form.subscription-form input.field {
+    background-color: var(--primary-3-25);
+    outline: none;
+    border: 1px solid transparent;
+    width: 315px;
+    color: #ccc;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    border-radius: 5px;
+}
+form.subscription-form input:focus {
+    border: 1px solid var(--primary-3);
+}
+input[type="checkbox"] {
+  cursor: pointer;
+  transform: translateY(2px);
+  width: 15px;
+  height: 15px;
+}
+
+section.social {
+    background: #001A21;
+    padding-bottom: 7rem;
+    padding-top: 5rem;
+}
+
+section.social .container {
+    /* border-top: 1px solid #fff; */
+    /* border-bottom: 1px solid #fff; */
+    padding-top: 2.5rem;
+    border-top: 1px solid #FFFFFF80;
+    border-bottom: 1px solid #FFFFFF80;
+    padding-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+section.social .dis-text {
+    width: min(850px, 95%);
+    margin: auto;
+}
+
+@media (1024px < width < 1299px) {
+    section.contact .sub-form-hold {
+        width: 500px;
+    }
+    section.contact .address-hold {
+        padding-left: 6rem;
+    }
+}
+@media (width < 1024px) {
+    section.contact .address-hold {
+        padding-left: 0;
+    }
+}
+
+@media (769px < width < 1024px) {
+    form.subscription-form {
+        width: 500px;
+    }
+}
+
+@media (width < 768.98px) {
+    #release-info > div {
+        padding-left: 1rem;
+    }
+    section.contact {
+        padding-left: 1rem;
+    }
+    form.subscription-form {
+        width: 95%;
+        margin: auto;
+    }
+    section.social .social-media {
+        width: 100%;
+        justify-content: center;
+    }
+    section.social #back-to-home,
+    section.social #to-release-notes {
+        display: none;
+    }
+    
+    section.contact .sub-form-hold {
+        width: 100%;
+    }
+}
+
+@media (width < 481px) {
+
+    form.subscription-form input.field {
+        width: 100%;
+    }
+}
