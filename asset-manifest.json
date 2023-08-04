@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/vickyshukla/Library-Page.git/static/css/main.cd413476.css",
-    "main.js": "/vickyshukla/Library-Page.git/static/js/main.45e2b899.js",
-    "index.html": "/vickyshukla/Library-Page.git/index.html",
-    "main.cd413476.css.map": "/vickyshukla/Library-Page.git/static/css/main.cd413476.css.map",
-    "main.45e2b899.js.map": "/vickyshukla/Library-Page.git/static/js/main.45e2b899.js.map"
+    "main.css": "/react-gh-pages/static/css/main.cd413476.css",
+    "main.js": "/react-gh-pages/static/js/main.45e2b899.js",
+    "index.html": "/react-gh-pages/index.html",
+    "main.cd413476.css.map": "/react-gh-pages/static/css/main.cd413476.css.map",
+    "main.45e2b899.js.map": "/react-gh-pages/static/js/main.45e2b899.js.map"
   },
   "entrypoints": [
     "static/css/main.cd413476.css",
